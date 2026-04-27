@@ -1,0 +1,19 @@
+# SSL keys and certificates
+*.key
+*.crt
+*.pem
+
+# Helm packages
+*.tgz
+
+# Docker volumes and data
+grafana_data/
+prom_data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
